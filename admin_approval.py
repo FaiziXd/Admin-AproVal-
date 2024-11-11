@@ -13,5 +13,5 @@ def approve_request():
     else:
         return jsonify({"message": "Approval rejected", "status": "rejected"})
 
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=8081)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
